@@ -6,6 +6,7 @@ Includes:
 - sort_numbers: built-in sorting wrapper
 - sum_of_squares: sum of squares computation
 """
+
 def bubble_sort(arr: list) -> list:
     """Basic bubble sort implementation that returns a sorted list."""
     # Refactored bubble sort: uses last-swap tracking to shrink the pass range.
